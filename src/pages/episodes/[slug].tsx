@@ -26,8 +26,6 @@ type EpisodeProps = {
 };
 
 export default function Episode({ episode }: EpisodeProps) {
-  console.log("---------------------------");
-  console.log(episode.thumbnail);
   return (
     <div className={styles.episode}>
       <div className={styles.thumbnailContainer}>
